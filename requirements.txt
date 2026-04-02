@@ -1,0 +1,27 @@
+# Core deep learning framework
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Computer vision
+opencv-python>=4.8.0
+
+# Numerical computing
+numpy>=1.24.0
+
+# Image processing
+Pillow>=9.5.0
+
+# Visualization & plotting
+matplotlib>=3.7.0
+
+# Jupyter notebooks
+jupyter>=1.0.0
+notebook>=7.0.0
+ipywidgets>=8.0.0
+
+# SAM2 (install separately from source)
+# git clone https://github.com/facebookresearch/segment-anything-2.git
+# cd segment-anything-2 && pip install -e .
+
+# Optional: progress bars in notebooks
+tqdm>=4.65.0
