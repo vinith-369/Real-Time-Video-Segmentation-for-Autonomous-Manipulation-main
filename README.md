@@ -43,4 +43,4 @@ The visual pipeline operates seamlessly to provide robust robotic manipulation t
 
 Below is an example of the semantic segmentation output produced during the real-time inference stage:
 
-![Segmentation Result](pipeline/output.png)
+![Segmentation Result](output.png)
