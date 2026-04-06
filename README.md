@@ -80,11 +80,3 @@ Major dependencies include:
 - `sam2` (from the local repository)
 
 Ensure to configure your `sam2_repo/checkpoints` properly when invoking the automated masking scripts. Training configurations such as epoch count, logging, and dataset paths can be modified in `UNet/main.py`.
-
-## Demo
-
-Here is a demonstration of the segmented output:
-
-<video src="output_segmented.mp4" controls="controls" style="max-width: 100%;">
-  Your browser does not support the video tag.
-</video>
