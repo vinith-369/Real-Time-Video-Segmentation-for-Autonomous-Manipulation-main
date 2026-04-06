@@ -85,6 +85,6 @@ Ensure to configure your `sam2_repo/checkpoints` properly when invoking the auto
 
 Here is a demonstration of the segmented output:
 
-<video src="pipeline/output_segmented.mp4" controls="controls" style="max-width: 100%;">
+<video src="output_segmented.mp4" controls="controls" style="max-width: 100%;">
   Your browser does not support the video tag.
 </video>
