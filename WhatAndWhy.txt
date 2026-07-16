@@ -1,0 +1,4 @@
+We built a real-time video segmentation system for autonomous manipulation feed it video frames, it spits out masks fast enough to actually be useful on a robot.
+SAM 2 gives you great masks but runs at 1.6 FPS, which is useless if a robot arm needs to react to what it's seeing in real time. So we trained a U-Net instead. It runs around 30 FPS, and the masks are good enough for the job even if they're not SAM 2 quality.
+With another 10 hours: temporal consistency is the first thing I'd fix (masks still flicker a bit frame to frame), then optimizing inference for edge devices, adding object tracking, and getting this onto actual robot hardware instead of just testing it offline.
+What we skipped: hardware deployment, and any real hyperparameter tuning beyond getting something that worked. Wanted a working end-to-end pipeline first tuning can come later once we know the architecture's even the right one.
